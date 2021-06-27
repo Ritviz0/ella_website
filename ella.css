@@ -1,0 +1,111 @@
+*{
+    font-family: 'Catamaran', sans-serif;
+}
+#log{
+    height: 15%;
+    width: 15%;
+    margin-left: 110px;
+}
+#sec1-img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+    height: 700px;
+    width: 85%;
+}
+.txt{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 120px;
+}
+#txt1{
+    color:rgb(54, 54, 54);
+    font-weight: bold;
+    font-size: 80px;
+    text-decoration: none;
+}
+#txt2{
+    color:rgb(22, 22, 22);
+    font-size: 60px; 
+}
+#txt3{
+    color:rgb(22, 22, 22);
+    font-size: 60px;
+    /* margin-left: -40px; */
+}
+.pics{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.pics img{
+    margin: 15px;
+    width: 50%;
+    padding: 5px;
+}
+#name1{
+    margin-left: 25px;
+}
+#name2{
+    margin-left: 200px;
+}
+#name3{
+    margin-left: 130px;
+}
+#name4{
+    margin-left: 220px;
+}
+.small-letters{
+    font-size: 35px;
+    margin-top: -50px;
+    
+}
+.container{
+    display: flex;
+    margin-top: -60px;
+}
+#msg{
+    margin-left: 25px;
+    border: 5px solid;
+    padding: 35px;
+    color: white;
+    background-color: rgb(9, 133, 204);
+    border-radius: 10px;
+    font-weight: bold;
+}
+.img1{
+    height: 60px;
+    width: 60px;
+}
+footer{
+    position: absolute;
+    left: 0;
+    right: 0;
+   background: rgb(238, 245, 248);
+   width: 100vw;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 100px;
+    font-weight: 700;
+}
+.footer-content p{
+    font-size: 48px;
+    margin-top: -65px;
+}
+.social{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 10px 0px 10px;
+}
+li{
+    padding: 30px;
+}
